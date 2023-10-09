@@ -80,6 +80,9 @@
             let n = parseFloat( prompt("Digite um número") )  
                   
             for(let i = 0; i <=1000; i++){
+                if(i === 11){
+                    break
+                }
                 msg += `${n} x ${i} = ${(n * i)} <br>`
 
             }
